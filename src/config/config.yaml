@@ -1,0 +1,13 @@
+network:
+  capture_interface: "Ethernet 2"
+
+detection:
+  time_window_seconds: 10
+  unique_ports_threshold: 20
+  unique_hosts_threshold: 5
+
+response:
+  mode: "detection_only"
+
+logging:
+  level: "INFO"

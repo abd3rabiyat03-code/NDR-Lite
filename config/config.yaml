@@ -1,0 +1,13 @@
+network:
+  capture_interface: '\Device\NPF_{C22D98E7-57AF-43C0-9DBC-D2888D6078EB}'
+
+detection:
+  time_window_seconds: 10
+  unique_ports_threshold: 20
+  unique_hosts_threshold: 5
+
+response:
+  mode: "detection_only"
+
+logging:
+  level: "INFO"
